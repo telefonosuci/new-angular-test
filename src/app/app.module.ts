@@ -3,16 +3,23 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TopNavigationComponent } from './top-navigation/top-navigation.component';
 
 
 @NgModule({
+
   declarations: [
-    AppComponent
+    AppComponent,
+    TopNavigationComponent
   ],
+  
   imports: [
     BrowserModule
   ],
-  providers: [],
+  
+  providers: [
+    // Servizi qui
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
