@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { TopNavigationComponent } from './top-navigation/top-navigation.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CustomersComponent } from './customers/customers.component';
+//import { UserService } from './user.service';
 
 
 @NgModule({
@@ -22,10 +23,7 @@ import { CustomersComponent } from './customers/customers.component';
     BrowserModule,
       HttpModule
   ],
-  
-  providers: [
-    // Servizi qui
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
