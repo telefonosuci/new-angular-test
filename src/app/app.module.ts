@@ -1,10 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
 import { TopNavigationComponent } from './top-navigation/top-navigation.component';
 import { ProfileComponent } from './profile/profile.component';
+import { CustomersComponent } from './customers/customers.component';
 
 
 @NgModule({
@@ -12,11 +14,13 @@ import { ProfileComponent } from './profile/profile.component';
   declarations: [
     AppComponent,
     TopNavigationComponent,
-    ProfileComponent
+    ProfileComponent,
+    CustomersComponent
   ],
   
   imports: [
-    BrowserModule
+    BrowserModule,
+      HttpModule
   ],
   
   providers: [
